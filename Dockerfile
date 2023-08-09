@@ -1,5 +1,5 @@
 # Use the AOSP compatible Ubuntu as the base image
-FROM userariii/aosp-ubuntu
+FROM userariii/aosp-ubuntu:22.04.01
 
 # Set non-interactive environment variable
 ENV DEBIAN_FRONTEND=noninteractive
